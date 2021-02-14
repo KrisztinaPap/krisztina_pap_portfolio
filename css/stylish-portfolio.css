@@ -281,18 +281,12 @@ h6 {
   }
 }
 
-.map iframe {
-  height: 100%;
-  width: 100%;
-  border: 0;
-}
-
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
-footer.footer .social-link {
+.social-link {
   display: block;
   height: 4rem;
   width: 4rem;
@@ -303,7 +297,7 @@ footer.footer .social-link {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
-footer.footer .social-link:hover {
+.social-link:hover {
   background-color: #155d74;
   text-decoration: none;
 }
