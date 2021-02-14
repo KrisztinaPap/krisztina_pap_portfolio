@@ -74,11 +74,11 @@ h6 {
   min-height: 30rem;
   position: relative;
   display: table;
-  width: 100%;
+  width: 100vw;
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/road-1072823.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -92,6 +92,7 @@ h6 {
 
 @media (min-width: 992px) {
   .masthead {
+    width: 100vw;
     height: 100vh;
   }
   .masthead h1 {
@@ -291,4 +292,9 @@ a:hover, a:focus, a:active {
   display: block;
 }
 
-
+.cover-text {
+  width: 50vw;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
